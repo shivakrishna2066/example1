@@ -1,0 +1,226 @@
+#pp{
+    width: 95%;
+    margin: auto;
+}
+#pp-base{
+    display: flex;
+    justify-content: space-between;
+}
+#pp-filter-section{
+    border: 1px solid gainsboro;
+    width:15%;
+    padding: 5px;
+}
+hr{
+    border: 1px solid gainsboro;
+  }
+  #pp-product-section{
+      border: 0px solid;
+      width:83%;
+  }
+  #pp-filter-section>div:nth-child(1){
+      display: flex;
+      justify-content: space-between;
+  }
+  .pp-flex-space_between{
+      display: flex;
+      justify-content: space-between;
+  }
+  #pp-sortbar{
+      border: 1px solid gainsboro;
+      width: 203px;
+      padding: 9px;
+  }
+  #pp-card{
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      gap: 20px;
+      margin: 10px;
+      line-height: 7px;
+      
+      height:1200px;
+      overflow: scroll;
+  }
+  #pp img{
+      width: 100%;
+  }
+  #pp-down-menu{
+      border:1px solid gainsboro;
+      width:210px;
+      position:absolute;
+      top:202px;
+      right:45px;
+      display: none;
+      padding-left: 10px;
+      background-color: white;
+  }
+  #pp-down-menu>div:hover{
+      font-weight: bolder;
+      cursor: pointer;
+  }
+  #pp-hover-wishlist{
+      border: 1px solid gainsboro;   
+      
+      padding: 10px;
+      background-color: white;
+      text-align: center;
+      
+  }
+  #pp-hover-wishlist:hover{
+    border: 1px solid;
+    cursor: pointer;
+  }
+  .pp-integers{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+  }
+
+  #nav{
+    display: flex;
+    border: 0px solid;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    margin-top: -8px;
+}    
+#nav>div{
+    border: 0px solid;
+}
+#nav>div:nth-child(1)>img{
+    width: 100%;
+    cursor: pointer;
+}
+#nav>div:nth-child(1){
+    width: 8%;
+}
+#nav>div:nth-child(2){
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav>div:nth-last-child(1){
+    width:11%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 0px solid;
+}
+#nav>div:nth-last-child(1)>div{
+    border: 0px solid;
+    text-align:center;
+    display: grid;
+    padding-top: 15px;
+}
+
+#nav>div:nth-child(3)>input{
+    padding: 10px;
+    width:100%;
+    background-color: azure;
+}
+
+#nav_search{
+    display:flex;
+    width:25%;
+    align-items: center;
+    background-color: azure;
+}
+#nav_cat>div:hover{
+    cursor: pointer;
+}
+
+#drop{  
+    border:0px solid;
+    height: auto;
+    width:72%;
+    background-color: green;
+    position:fixed;
+    top:72px;
+    left:200px;
+    display:none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#drop>div>div{
+    width: 20%;
+    padding: 12px;
+    line-height: 7px;
+    
+}
+#drop>div>div>p:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+#profile_drop{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border:1px solid white;
+    line-height: 50%;
+    width:20%;
+    position:fixed;
+    top:85px;
+    left:79%;
+    display: none;
+    padding-left: 10px;
+    background-color: white;
+}
+#profile_drop>p:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nav-color{
+    color: red;
+    font-weight: bolder;
+}
+hr{
+    border: 1px solid gainsboro;
+}
+
+#lp{
+    background-color:aliceblue;
+    padding-top: 30px;
+}
+#lp_footer{
+    width: 80%;
+    border: 0px solid;
+    margin: auto;
+    background-color:;
+}
+#foot_social{
+    display: flex;
+}
+
+#foot_social>div{
+    display: flex;
+}
+.image{
+    display: flex;
+}
+#foot_social>div:nth-child(1){
+    border: 0px solid red;
+    width: 30%;
+}
+#foot_social>div:nth-child(2){
+    border: 0px solid green;
+    width: 70%;
+}
+#foot_social>div:nth-child(2)>div:nth-child(1){
+    border: 0px solid;
+    width: 50%;
+}
+#app>img{
+    width: 40%;
+}
+
+#foot_popular>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot_address{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
